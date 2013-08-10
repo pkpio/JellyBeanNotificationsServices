@@ -5,14 +5,14 @@
     android:gravity="center_horizontal|center_vertical"
     android:orientation="vertical" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/HandleNotification"
-        android:textSize="20dp"
-        android:textStyle="bold|italic"
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="300dp"
+        android:layout_height="440dp"
+        android:contentDescription="@string/HandleNotification"
         android:gravity="center_horizontal"
-        android:drawableBottom="@drawable/dev" />
+        android:src="@drawable/dev"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
 
 </LinearLayout>

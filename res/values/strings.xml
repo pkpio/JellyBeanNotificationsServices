@@ -1,11 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Praveen Kumar</string>
+    <string name="app_name">JB notifications demo</string>
     <string name="notificationHeading">Select type of notification</string>
     <string name="serviceHeading">Service option</string>
     <string name="persistentSwitch">Persistent</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">Praveen Kumar</string>
     <string name="smallNotificationButton">Small</string>
     <string name="bigNotificationButton">Big</string>
     <string name="pictureNotificationButton">Picture</string>

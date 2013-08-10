@@ -2,91 +2,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:gravity="center_horizontal"
     android:orientation="vertical" >
 
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/notificationHeading"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:gravity="center_horizontal"
-        android:orientation="vertical" >
+        android:text="@string/notificationHeading"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:context=".MainActivity" />
 
-        <TextView
-            android:id="@+id/notificationHeading"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/notificationHeading"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            tools:context=".MainActivity" />
-
-        <Switch
-            android:id="@+id/persistentSwitch"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/persistentSwitch"
-            android:textOff="No"
-            android:textOn="Yes" />
-
-        <Button
-            android:id="@+id/smallNotificationButton"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:onClick="sendBasicNotification"
-            android:text="@string/smallNotificationButton" />
-
-        <Button
-            android:id="@+id/bigNotificationButton"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:onClick="sendBigTextNotification"
-            android:text="@string/bigNotificationButton" />
-
-        <Button
-            android:id="@+id/pictureNotificationButton"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:onClick="sendBigPictureNotification"
-            android:text="@string/pictureNotificationButton" />
-
-        <Button
-            android:id="@+id/messageInboxNotificationButton"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:onClick="sendMessageInboxNotificationButton"
-            android:text="@string/messageInboxNotificationButton" />
-    </LinearLayout>
-
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
+    <Switch
+        android:id="@+id/persistentSwitch"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:orientation="vertical" >
+        android:text="@string/persistentSwitch"
+        android:textOff="No"
+        android:textOn="Yes" />
 
-        <TextView
-            android:id="@+id/serviceHeading"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/serviceHeading"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            tools:context=".MainActivity" />
+    <Button
+        android:id="@+id/smallNotificationButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:onClick="sendBasicNotification"
+        android:text="@string/smallNotificationButton" />
 
-        <Button
-            android:id="@+id/startService"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:text="@string/startServiceButton" />
+    <Button
+        android:id="@+id/bigNotificationButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:onClick="sendBigTextNotification"
+        android:text="@string/bigNotificationButton" />
 
-        <Button
-            android:id="@+id/stopService"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:text="@string/stopServiceButton" />
-    </LinearLayout>
+    <Button
+        android:id="@+id/pictureNotificationButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:onClick="sendBigPictureNotification"
+        android:text="@string/pictureNotificationButton" />
+
+    <Button
+        android:id="@+id/messageInboxNotificationButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessageInboxNotificationButton"
+        android:text="@string/messageInboxNotificationButton" />
 
 </LinearLayout>
