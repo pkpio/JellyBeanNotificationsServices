@@ -1,6 +1,10 @@
 JellyBeanNotificationsServices
 ==============================
 
+
+LICENSING
+=========
+
 © 2013, Praveen Kumar Pendyala. Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license, http://creativecommons.org/licenses/by-nc-sa/3.0/
 
 You may use this code, modify it to your own needs - Add/remove functionalities, squash few bugs, with a condition that a proper credit given to the original developer - Yeah that's me, Praveen Pendyala.
